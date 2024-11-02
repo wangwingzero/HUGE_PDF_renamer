@@ -1,0 +1,33 @@
+2024-11-03 05:52:10,385 - INFO - 程序启动
+2024-11-03 05:52:10,387 - INFO - 右键菜单移除成功
+2024-11-03 05:52:17,812 - INFO - 程序启动
+2024-11-03 05:52:17,812 - INFO - 为 FoxitPhantomPDF.Document 注册右键菜单成功
+2024-11-03 05:52:17,812 - INFO - 为 MSEdgePDF 注册右键菜单成功
+2024-11-03 05:52:17,812 - INFO - 为 Acrobat.Document.DC 注册右键菜单成功
+2024-11-03 05:52:17,812 - INFO - 为 WPS.PDF 注册右键菜单成功
+2024-11-03 05:52:17,822 - INFO - 为 AcroExch.Document.DC 注册右键菜单成功
+2024-11-03 05:52:17,824 - INFO - 为 FoxitReader.Document 注册右键菜单成功
+2024-11-03 05:52:17,825 - INFO - 为 MSEdgeHTM 注册右键菜单成功
+2024-11-03 05:52:17,826 - INFO - 为 Applications\msedge.exe 注册右键菜单成功
+2024-11-03 05:52:17,827 - INFO - 为 .pdf 注册右键菜单成功
+2024-11-03 05:52:17,829 - INFO - 右键菜单注册成功
+2024-11-03 05:55:41,395 - INFO - 程序启动
+2024-11-03 05:55:41,398 - INFO - Found user choice ProgId: FoxitPhantomPDF.Document
+2024-11-03 05:55:41,398 - WARNING - Failed to remove menu from default handler: [WinError 2] 系统找不到指定的文件。
+2024-11-03 05:55:41,399 - WARNING - Failed to remove menu from .pdf: [WinError 2] 系统找不到指定的文件。
+2024-11-03 05:55:41,399 - INFO - Successfully removed directory menu
+2024-11-03 05:55:41,399 - INFO - 右键菜单移除成功
+2024-11-03 05:55:57,848 - INFO - 程序启动
+2024-11-03 05:55:57,850 - INFO - Found user choice ProgId: FoxitPhantomPDF.Document
+2024-11-03 05:55:57,850 - INFO - PDF默认处理程序: FoxitPhantomPDF.Document
+2024-11-03 05:55:57,852 - INFO - Successfully registered menu to default handler: FoxitPhantomPDF.Document\shell\PDFAutoRenamer
+2024-11-03 05:55:57,853 - INFO - Successfully registered directory menu
+2024-11-03 05:55:57,853 - INFO - 右键菜单注册成功
+2024-11-03 05:58:19,302 - INFO - 程序启动
+2024-11-03 05:58:19,304 - WARNING - 移除所有文件类型的菜单失败: [WinError 2] 系统找不到指定的文件。
+2024-11-03 05:58:19,305 - INFO - 成功移除目录菜单
+2024-11-03 05:58:19,305 - INFO - 右键菜单移除成功
+2024-11-03 05:58:31,900 - INFO - 程序启动
+2024-11-03 05:58:31,905 - INFO - 成功注册到所有文件类型
+2024-11-03 05:58:31,905 - INFO - 成功注册目录菜单
+2024-11-03 05:58:31,905 - INFO - 右键菜单注册成功

@@ -1,14 +1,23 @@
+# 标准库导入
 import os
-import pdfplumber
-from pathlib import Path
-from tqdm import tqdm
 import sys
-import tkinter as tk
-from tkinter import filedialog, messagebox
-import time
-import keyboard
-import threading
 import signal
+import threading
+from datetime import datetime
+from pathlib import Path
+
+# 第三方库导入
+import pdfplumber
+from tqdm import tqdm
+import keyboard
+
+# tkinter相关导入
+import tkinter as tk
+from tkinter import ttk
+from tkinter import filedialog, messagebox
+
+# 本地模块导入
+from utils import setup_logging
 
 def check_environment():
     """检查运行环境是否正确"""
@@ -16,7 +25,7 @@ def check_environment():
         import pdfplumber
         return True
     except ImportError as e:
-        messagebox.showerror("环境错误", 
+        messagebox.showerror("虎大王PDF重命名 - 环境错误", 
             f"缺少必要的库: {str(e)}\n"
             "请确保已安装 pdfplumber:\n"
             "pip install pdfplumber")
@@ -28,15 +37,15 @@ def select_files():
     root.withdraw()  # 隐藏主窗口
     print("\n请选择PDF文件...")
     files = filedialog.askopenfilenames(
-        title="选择PDF文件",
+        title="虎大王PDF重命名 - 选择PDF文件",
         filetypes=[("PDF文件", "*.pdf"), ("所有文件", "*.*")],
-        multiple=True  # 允许多选
+        multiple=True
     )
     if files:
-        print(f"已选择 {len(files)} 个文件")
+        logger.info(f"已选择 {len(files)} 个文件")
         return [Path(f) for f in files]
     else:
-        print("未选择任何文件，程序将退出")
+        logger.info("未选择任何文件，程序将退出")
         return None
 
 def get_largest_text(pdf_path):
@@ -45,14 +54,12 @@ def get_largest_text(pdf_path):
         with pdfplumber.open(pdf_path) as pdf:
             first_page = pdf.pages[0]
             
-            # 尝试不同的参数组合来提取文本
+            # 添加更多提取参数组合
             extraction_attempts = [
-                # 尝试1：默认参数
                 {'x_tolerance': 3, 'y_tolerance': 3},
-                # 尝试2：更宽松的参数
                 {'x_tolerance': 10, 'y_tolerance': 5},
-                # 尝试3：非常宽松的参数
-                {'x_tolerance': 15, 'y_tolerance': 10}
+                {'x_tolerance': 15, 'y_tolerance': 10},
+                {'x_tolerance': 20, 'y_tolerance': 15}  # 更宽松的参数
             ]
             
             for params in extraction_attempts:
@@ -63,20 +70,18 @@ def get_largest_text(pdf_path):
                 )
                 
                 if elements:
-                    print(f"\n使用参数 {params} 提取文本:")
-                    
-                    # 尝试从文本属性中获取字体信息
+                    logger.info(f"使用参数 {params} 提取文本:")
                     elements_with_info = []
+                    
+                    # 优化字体大小检测
                     for e in elements:
-                        # 获取元素的详细信息
                         chars = first_page.chars
                         chars_in_word = [c for c in chars if c['x0'] >= e['x0'] and c['x1'] <= e['x1'] and 
                                        c['top'] >= e['top'] and c['bottom'] <= e['bottom']]
                         
                         if chars_in_word:
-                            # 使用字符的最大字体大小作为单词的字体大小
                             max_font_size = max(c.get('size', 0) for c in chars_in_word)
-                            if max_font_size > 0:
+                            if max_font_size > 0 and not all('cid' in c.get('text', '').lower() for c in chars_in_word):
                                 elements_with_info.append({
                                     'text': e['text'],
                                     'size': max_font_size,
@@ -89,14 +94,14 @@ def get_largest_text(pdf_path):
                         sorted_elements = sorted(elements_with_info, key=lambda x: x['size'], reverse=True)
                         max_size = sorted_elements[0]['size']
                         
-                        print(f"找到的文本元素:")
-                        for e in sorted_elements[:5]:  # 显示前5个最大的文本
-                            print(f"文本: {e['text']}, 大小: {e['size']}")
+                        logger.info(f"找到的文本元素:")
+                        for e in sorted_elements[:5]:
+                            logger.info(f"文本: {e['text']}, 大小: {e['size']}")
                         
-                        # 获取所有最大字体的文本元素（允许1的误差）
+                        # 获取所有最大字体的文本元素
                         largest_texts = [e for e in sorted_elements if abs(e['size'] - max_size) < 1]
                         
-                        # 按位置排序（先上下，后左右）
+                        # 按位置排序
                         largest_texts.sort(key=lambda x: (x['top'], x['x0']))
                         
                         if largest_texts:
@@ -118,26 +123,25 @@ def get_largest_text(pdf_path):
                                 result.append(''.join(current_line))
                             
                             final_text = ' '.join(result)
-                            print(f"\n合并后的文本: {final_text}")
+                            logger.info(f"合并后的文本: {final_text}")
                             cleaned_text = clean_text(final_text)
                             if cleaned_text:
                                 return cleaned_text
-            
-            print(f"\n{pdf_path.name} 无法提取有效文本")
+                                
+            logger.warning(f"{pdf_path.name} 无法提取有效文本")
             return None
             
     except Exception as e:
-        print(f"\n处理文件时出错: {e}")
+        logger.error(f"处理文件时出错: {e}")
         return None
 
 def clean_text(text):
     """清理和验证文本"""
-    # 移除特殊字符和无效内容
     if not text:
         return None
-        
-    # 移除cid标记
-    if 'cid' in text.lower():
+
+    # 如果文本全是 cid，则尝试下一个提取参数
+    if all('cid' in word.lower() for word in text.split()):
         return None
         
     # 基本清理
@@ -159,178 +163,155 @@ def clean_text(text):
         
     return text
 
-def merge_text_elements(elements):
-    """合并文本元素"""
-    result = []
-    current_line = []
-    current_top = elements[0]['top']
-    
-    for text in elements:
-        if abs(text['top'] - current_top) < 5:
-            current_line.append(text['text'].strip())
-        else:
-            if current_line:
-                result.append(''.join(current_line))
-            current_line = [text['text'].strip()]
-            current_top = text['top']
-    
-    if current_line:
-        result.append(''.join(current_line))
-    
-    # 只返回前两行，通常标题不会太长
-    return ' '.join(result[:2])
-
-def get_top_text(elements):
-    """从页面顶部提取文本"""
-    print("\n使用位置策略提取文本")
-    # 获取页面前20%区域的元素
-    page_height = max(e['top'] for e in elements)
-    top_threshold = page_height * 0.2
-    
-    top_elements = sorted(
-        [e for e in elements if e['top'] <= top_threshold],
-        key=lambda x: (x['top'], x['x0'])
-    )
-    
-    if top_elements:
-        result = []
-        current_line = []
-        current_top = top_elements[0]['top']
-        
-        for text in top_elements:
-            if abs(text['top'] - current_top) < 5:
-                current_line.append(text['text'].strip())
-            else:
-                if current_line:
-                    result.append(''.join(current_line))
-                current_line = [text['text'].strip()]
-                current_top = text['top']
-        
-        if current_line:
-            result.append(''.join(current_line))
-        
-        final_text = ' '.join(result)
-        print(f"\n使用位置策略得到的文本: {final_text}")
-        return final_text
-    
-    return elements[0]['text'].strip()
-
-def safe_rename(old_path, new_path, max_retries=3, delay=1):
-    """安全地重命名文件，处理文件被占用的情况"""
-    for attempt in range(max_retries):
-        try:
-            old_path.rename(new_path)
-            return True
-        except PermissionError:
-            if attempt < max_retries - 1:
-                print(f"\n文件被占用，等待{delay}秒后重试...")
-                time.sleep(delay)
-            else:
-                print(f"\n无法重命名文件 {old_path.name}：文件被占用")
-                return False
-        except Exception as e:
-            print(f"\n重命名文件时出错: {e}")
-            return False
-    return False
-
 def check_for_exit():
     """检查是否按下ESC键"""
     while True:
         if keyboard.is_pressed('esc'):
-            print("\n用户按下ESC，正在终止程序...")
-            os._exit(0)  # 强制终止程序
+            logger.info("\n用户按下ESC，正在终止程序...")
+            os._exit(0)
 
 def rename_pdfs(files):
     """重命名PDF文件"""
-    if not files:  # 用户取消选择
+    if not files:
         return
     
-    # 启动ESC监听线程
-    exit_thread = threading.Thread(target=check_for_exit, daemon=True)
-    exit_thread.start()
-
-    try:
-        # 使用tqdm创建进度条
-        with tqdm(total=len(files), desc="重命名进度") as pbar:
-            for pdf_file in files:
-                try:
-                    print(f"\n处理: {pdf_file.name}")
-                    new_name = get_largest_text(pdf_file)
-                    
-                    if new_name:
-                        new_name = "".join(c for c in new_name if c.isalnum() or c in (' ', '-', '_'))
-                        new_name = new_name.strip()
-                        
-                        if not new_name:
-                            print(f"无法为 {pdf_file.name} 提取有效文件名")
-                            continue
-                        
-                        new_path = pdf_file.parent / f"{new_name}.pdf"
-                        
-                        # 只有在文件已存在时才添加数字后缀
-                        if new_path.exists() and new_path != pdf_file:
-                            counter = 1
-                            while new_path.exists():
-                                new_path = pdf_file.parent / f"{new_name}_{counter}.pdf"
-                                counter += 1
-                        
-                        if new_path != pdf_file:  # 只在新文件名不同时才重命名
-                            print(f"重命名为: {new_path.name}")
-                            safe_rename(pdf_file, new_path)
-                    else:
-                        print(f"无法从 {pdf_file.name} 提取文本")
-
-                except Exception as e:
-                    print(f"处理 {pdf_file.name} 时出错: {e}")
-                
-                finally:
-                    # 无论成功与否都更新进度条
-                    pbar.update(1)
+    # 创建进度窗口
+    window = tk.Tk()
+    window.title("虎大王PDF重命名工具 - 处理进度")
+    window.geometry("400x150")
+    window.attributes('-topmost', True)
     
+    # 添加进度信息
+    label = tk.Label(window, text=f"正在处理 {len(files)} 个PDF文件...", font=("Microsoft YaHei", 10))
+    label.pack(pady=10)
+    
+    # 创建进度条
+    progress = ttk.Progressbar(window, length=300, mode='determinate', maximum=len(files))
+    progress.pack(pady=10)
+    
+    # 添加详情标签
+    detail_label = tk.Label(window, text="准备开始...", font=("Microsoft YaHei", 9))
+    detail_label.pack(pady=5)
+    
+    try:
+        # 启动ESC监听线程
+        exit_thread = threading.Thread(target=check_for_exit, daemon=True)
+        exit_thread.start()
+        
+        # 处理文件
+        for index, pdf_file in enumerate(files, 1):
+            try:
+                detail_label.config(text=f"正在处理: {pdf_file.name}")
+                window.update()
+                
+                logger.info(f"处理: {pdf_file.name}")
+                new_name = get_largest_text(pdf_file)
+                
+                if new_name:
+                    new_path = pdf_file.parent / f"{new_name}.pdf"
+                    if new_path.exists() and new_path != pdf_file:
+                        counter = 1
+                        while new_path.exists():
+                            new_path = pdf_file.parent / f"{new_name}_{counter}.pdf"
+                            counter += 1
+                    
+                    if new_path != pdf_file:
+                        logger.info(f"重命名为: {new_path.name}")
+                        pdf_file.rename(new_path)
+                        detail_label.config(text=f"完成: {new_path.name}")
+                else:
+                    logger.warning(f"无法从 {pdf_file.name} 提取文本")
+                    detail_label.config(text=f"跳过: {pdf_file.name}")
+                
+                progress['value'] = index
+                window.update()
+                
+            except Exception as e:
+                logger.error(f"处理 {pdf_file.name} 时出错: {e}")
+                detail_label.config(text=f"出错: {pdf_file.name}")
+                window.update()
+        
+        # 处理完成后延迟1秒关闭窗口
+        detail_label.config(text="处理完成!")
+        window.update()
+        window.after(1000, window.destroy)  # 1秒后自动关闭
+        window.mainloop()
+        
+    except Exception as e:
+        logger.error(f"处理过程出错: {e}")
+        if window:
+            window.destroy()
+            
     finally:
-        # 直接退出，不显示完成消息
-        os._exit(0)
+        sys.exit(0)
 
 def signal_handler(signum, frame):
     """处理终止信号"""
-    print("\n接收到终止信号，正在退出程序...")
+    logger.info("接收到终止信号正在退出程序...")
     sys.exit(0)
 
+def merge_files_from_args():
+    """从命令行参数合并文件列表"""
+    files = []
+    for arg in sys.argv[1:]:
+        # 移除引号
+        arg = arg.strip('"').strip("'")
+        path = Path(arg)
+        if path.is_file() and path.suffix.lower() in ['.pdf', '.PDF']:
+            files.append(path)
+        elif path.is_dir():
+            pdf_files = list(path.glob("*.pdf")) + list(path.glob("*.PDF"))
+            files.extend(pdf_files)
+    return files
+
+# 创建全局logger对象
+logger = None
+
 if __name__ == "__main__":
-    print("PDF文件重命名工具启动...")
+    # 初始化logger
+    logger, log_file = setup_logging('pdf_renamer', force_new=False)
+    logger.name = 'pdf_renamer'
+    logger.info("虎大王PDF重命名工具启动...")
+    
+    # 记录环境信息
+    logger.info(f"Python版本: {sys.version}")
+    logger.info(f"Python路径: {sys.executable}")
+    logger.info(f"工作目录: {os.getcwd()}")
+    logger.info(f"命令行参数: {sys.argv}")
     
     # 注册信号处理器
     signal.signal(signal.SIGINT, signal_handler)
     signal.signal(signal.SIGTERM, signal_handler)
     
-    # 添加环境检查
-    print("检查运行环境...")
     if not check_environment():
         sys.exit(1)
     
-    # 安装keyboard库（如果需要）
+    logger.info("程序已准备就绪")
+    logger.info("按ESC键可以随时终止程序")
+    
     try:
-        import keyboard
-    except ImportError:
-        print("安装keyboard库...")
-        subprocess.run([sys.executable, '-m', 'pip', 'install', 'keyboard'], check=True)
-        import keyboard
-    
-    print("\n程序已准备就绪")
-    print("按ESC键可以随时终止程序")
-    print("\n请在弹出的对话框中选择文件...")
-    
-    if len(sys.argv) > 1:
-        # 如果是从命令行传入路径
-        path = Path(sys.argv[1])
-        if path.is_file():
-            files = [path]
+        if len(sys.argv) > 1:
+            # 处理传入的文件列表
+            files = merge_files_from_args()
+            if not files:
+                logger.error("未找到有效的PDF文件")
+                sys.exit(1)
         else:
-            files = list(path.glob("*.pdf"))
-    else:
-        files = select_files()
-    
-    if files:
+            # 打开文件选择对话框
+            files = select_files()
+            if not files:
+                logger.info("未选择文件")
+                sys.exit(0)
+        
+        # 处理文件
+        logger.info(f"找到 {len(files)} 个PDF文件")
+        
+        # 显示处理进度窗口并处理文件
+        root = tk.Tk()
+        root.withdraw()  # 隐藏主窗口
         rename_pdfs(files)
-    else:
-        print("程序已取消")
+        
+    except Exception as e:
+        logger.error(f"程序运行出错: {e}")
+        messagebox.showerror("错误", str(e))
+        sys.exit(1)
