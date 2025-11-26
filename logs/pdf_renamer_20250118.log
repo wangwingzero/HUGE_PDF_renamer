@@ -1,0 +1,44 @@
+2025-01-18 13:33:00 - pdf_renamer - INFO - 虎大王PDF重命名工具启动...
+2025-01-18 13:33:00 - pdf_renamer - INFO - Python版本: 3.8.20 (default, Oct  3 2024, 15:19:54) [MSC v.1929 64 bit (AMD64)]
+2025-01-18 13:33:00 - pdf_renamer - INFO - Python路径: D:\pdf_renamer\.conda\python.exe
+2025-01-18 13:33:00 - pdf_renamer - INFO - 工作目录: D:\pdf_renamer
+2025-01-18 13:33:00 - pdf_renamer - INFO - 程序已准备就绪
+2025-01-18 13:33:00 - pdf_renamer - INFO - 按ESC键可以随时终止程序
+2025-01-18 13:33:13 - pdf_renamer - INFO - 已选择 4 个文件
+2025-01-18 13:33:13 - pdf_renamer - INFO - 找到 4 个PDF文件
+2025-01-18 13:33:13 - pdf_renamer - INFO - 处理: 00c79317-5dd5-4ba0-a4f6-ff6b8890651e.pdf
+2025-01-18 13:33:30 - pdf_renamer - INFO - 使用参数 {'x_tolerance': 3, 'y_tolerance': 3} 提取文本:
+2025-01-18 13:33:30 - pdf_renamer - INFO - 找到的文本元素:
+2025-01-18 13:33:30 - pdf_renamer - INFO - 文本: 中国东方航空股份有限公司 , 大小: 22.019999999999982
+2025-01-18 13:33:30 - pdf_renamer - INFO - 文本: A319/A320/A321, 大小: 19.980000000000018
+2025-01-18 13:33:30 - pdf_renamer - INFO - 文本: 快速参考手册 , 大小: 19.980000000000018
+2025-01-18 13:33:30 - pdf_renamer - INFO - 文本:  , 大小: 18.0
+2025-01-18 13:33:30 - pdf_renamer - INFO - 文本:  , 大小: 18.0
+2025-01-18 13:33:30 - pdf_renamer - INFO - 合并后的文本: 中国东方航空股份有限公司
+2025-01-18 13:33:33 - pdf_renamer - INFO - 处理: 00da2fe8-939d-43ce-bb39-48862fd72701.pdf
+2025-01-18 13:33:48 - pdf_renamer - INFO - 使用参数 {'x_tolerance': 3, 'y_tolerance': 3} 提取文本:
+2025-01-18 13:33:48 - pdf_renamer - INFO - 找到的文本元素:
+2025-01-18 13:33:48 - pdf_renamer - INFO - 文本: 中国东方航空股份有限公司 , 大小: 22.019999999999982
+2025-01-18 13:33:48 - pdf_renamer - INFO - 文本: A319/A320/A321, 大小: 19.980000000000018
+2025-01-18 13:33:48 - pdf_renamer - INFO - 文本: 快速参考手册 , 大小: 19.980000000000018
+2025-01-18 13:33:48 - pdf_renamer - INFO - 文本:  , 大小: 18.0
+2025-01-18 13:33:48 - pdf_renamer - INFO - 文本:  , 大小: 18.0
+2025-01-18 13:33:48 - pdf_renamer - INFO - 合并后的文本: 中国东方航空股份有限公司
+2025-01-18 13:33:52 - pdf_renamer - INFO - 处理: 00e64514-2381-47f4-8d0e-428132901af0.pdf
+2025-01-18 13:34:06 - pdf_renamer - INFO - 使用参数 {'x_tolerance': 3, 'y_tolerance': 3} 提取文本:
+2025-01-18 13:34:06 - pdf_renamer - INFO - 找到的文本元素:
+2025-01-18 13:34:06 - pdf_renamer - INFO - 文本: 中国东方航空股份有限公司 , 大小: 22.019999999999982
+2025-01-18 13:34:06 - pdf_renamer - INFO - 文本: A330, 大小: 19.980000000000018
+2025-01-18 13:34:06 - pdf_renamer - INFO - 文本: 快速参考手册 , 大小: 19.980000000000018
+2025-01-18 13:34:06 - pdf_renamer - INFO - 文本:  , 大小: 18.0
+2025-01-18 13:34:06 - pdf_renamer - INFO - 文本:  , 大小: 18.0
+2025-01-18 13:34:06 - pdf_renamer - INFO - 合并后的文本: 中国东方航空股份有限公司
+2025-01-18 13:34:09 - pdf_renamer - INFO - 处理: 0a6d00be-e554-4325-8d43-e14a42399573.pdf
+2025-01-18 13:34:25 - pdf_renamer - INFO - 使用参数 {'x_tolerance': 3, 'y_tolerance': 3} 提取文本:
+2025-01-18 13:34:25 - pdf_renamer - INFO - 找到的文本元素:
+2025-01-18 13:34:25 - pdf_renamer - INFO - 文本: QUICK REFERENCE HANDBOOK, 大小: 19.899999999999977
+2025-01-18 13:34:25 - pdf_renamer - INFO - 文本: B-6637, 大小: 13.900000000000034
+2025-01-18 13:34:25 - pdf_renamer - INFO - 文本: A320-232, 大小: 13.900000000000034
+2025-01-18 13:34:25 - pdf_renamer - INFO - 文本: MSN 04111, 大小: 13.900000000000034
+2025-01-18 13:34:25 - pdf_renamer - INFO - 文本: REFERENCE: CES MSN 04111 B-6637 QRH, 大小: 10.000000000000002
+2025-01-18 13:34:25 - pdf_renamer - INFO - 合并后的文本: QUICK REFERENCE HANDBOOK

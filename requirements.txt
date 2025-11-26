@@ -1,0 +1,15 @@
+# 核心依赖（不固定版本，避免与 Python 3.13 冲突）
+pdfplumber
+keyboard
+tqdm
+sv-ttk
+
+# PDF 处理相关依赖
+pdfminer.six
+
+# 打包工具
+pyinstaller
+
+# v3 相关依赖
+pypdf
+customtkinter

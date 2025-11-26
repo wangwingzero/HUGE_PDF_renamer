@@ -1,0 +1,20 @@
+{
+  "max_filename_length": 100,
+  "preserve_original": true,
+  "add_timestamp": false,
+  "remove_special_chars": true,
+  "primary_strategy": "auto",
+  "fallback_strategies": [
+    "position",
+    "metadata"
+  ],
+  "text_cleanup_level": "moderate",
+  "language_detection": true,
+  "smart_truncation": true,
+  "theme": "light",
+  "show_preview": true,
+  "auto_backup": false,
+  "parallel_processing": true,
+  "max_workers": 4,
+  "ocr_fallback": false
+}

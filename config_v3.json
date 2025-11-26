@@ -1,0 +1,7 @@
+{
+  "max_filename_length": 120,
+  "add_timestamp": false,
+  "auto_backup": false,
+  "parallel_processing": true,
+  "max_workers": 4
+}

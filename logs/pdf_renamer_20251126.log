@@ -1,0 +1,409 @@
+2025-11-26 18:08:30 - pdf_renamer - INFO - PDF重命名工具 v2.0 启动
+2025-11-26 18:09:19 - pdf_renamer - INFO - 处理文件: de138700-04fb-467e-9363-06bf8261c274.pdf
+2025-11-26 18:09:19 - pdf_renamer - INFO - 处理文件: 0e12d07c-a61a-4775-bb7b-9ab5a456e415.pdf
+2025-11-26 18:09:19 - pdf_renamer - WARNING - 文件过大（750.3MB），跳过处理: de138700-04fb-467e-9363-06bf8261c274.pdf
+2025-11-26 18:09:19 - pdf_renamer - WARNING - 文件过大（183.4MB），跳过处理: 0e12d07c-a61a-4775-bb7b-9ab5a456e415.pdf
+2025-11-26 18:09:19 - pdf_renamer - INFO - 处理文件: 2007eced-9cc6-44fa-93bd-dcb16e03685e.pdf
+2025-11-26 18:09:19 - pdf_renamer - INFO - 处理文件: 2044fccc-8ab6-4e95-9d28-0dc448db696f.pdf
+2025-11-26 18:09:19 - pdf_renamer - INFO - 处理文件: d86937b2-b084-418b-84aa-8ba451029044.pdf
+2025-11-26 18:09:19 - pdf_renamer - INFO - 处理文件: 76fc8ae9-919e-4e75-afdc-e0c5d3328f90.pdf
+2025-11-26 18:09:19 - pdf_renamer - WARNING - 文件过大（169.9MB），跳过处理: 2007eced-9cc6-44fa-93bd-dcb16e03685e.pdf
+2025-11-26 18:09:19 - pdf_renamer - WARNING - 文件过大（135.2MB），跳过处理: 2044fccc-8ab6-4e95-9d28-0dc448db696f.pdf
+2025-11-26 18:09:19 - pdf_renamer - WARNING - 文件过大（135.3MB），跳过处理: d86937b2-b084-418b-84aa-8ba451029044.pdf
+2025-11-26 18:09:19 - pdf_renamer - WARNING - 文件过大（135.0MB），跳过处理: 76fc8ae9-919e-4e75-afdc-e0c5d3328f90.pdf
+2025-11-26 18:09:19 - pdf_renamer - INFO - 处理文件: 57deed34-c3d4-4bea-bd40-172f082cd037.pdf
+2025-11-26 18:09:19 - pdf_renamer - INFO - 处理文件: 79c22ecc-416d-4b57-abbc-8b3d40a29e50.pdf
+2025-11-26 18:09:19 - pdf_renamer - INFO - 处理文件: 8e714e17-d1c8-412e-9ed9-dc9daddcffaa.pdf
+2025-11-26 18:09:19 - pdf_renamer - INFO - 处理文件: 44167fb6-5db1-4098-a6e7-8c9db1591a01.pdf
+2025-11-26 18:09:19 - pdf_renamer - WARNING - 文件过大（128.3MB），跳过处理: 57deed34-c3d4-4bea-bd40-172f082cd037.pdf
+2025-11-26 18:09:19 - pdf_renamer - WARNING - 文件过大（126.4MB），跳过处理: 79c22ecc-416d-4b57-abbc-8b3d40a29e50.pdf
+2025-11-26 18:09:19 - pdf_renamer - WARNING - 文件过大（126.1MB），跳过处理: 8e714e17-d1c8-412e-9ed9-dc9daddcffaa.pdf
+2025-11-26 18:09:19 - pdf_renamer - WARNING - 文件过大（125.7MB），跳过处理: 44167fb6-5db1-4098-a6e7-8c9db1591a01.pdf
+2025-11-26 18:09:19 - pdf_renamer - INFO - 处理文件: bac13d99-1f2e-4532-8c95-da16f4e2f1fc.pdf
+2025-11-26 18:09:19 - pdf_renamer - INFO - 处理文件: f267d111-289e-44b3-9ef6-15f17d41ce70.pdf
+2025-11-26 18:09:19 - pdf_renamer - INFO - 处理文件: 1ef79712-4b1e-4de9-a2be-ec4678d100b8.pdf
+2025-11-26 18:09:19 - pdf_renamer - INFO - 处理文件: f246739e-6674-418c-a55b-809c095a6f2a.pdf
+2025-11-26 18:09:19 - pdf_renamer - WARNING - 文件过大（120.9MB），跳过处理: bac13d99-1f2e-4532-8c95-da16f4e2f1fc.pdf
+2025-11-26 18:09:19 - pdf_renamer - WARNING - 文件过大（119.6MB），跳过处理: f267d111-289e-44b3-9ef6-15f17d41ce70.pdf
+2025-11-26 18:09:19 - pdf_renamer - WARNING - 文件过大（114.0MB），跳过处理: 1ef79712-4b1e-4de9-a2be-ec4678d100b8.pdf
+2025-11-26 18:09:19 - pdf_renamer - WARNING - 文件过大（112.4MB），跳过处理: f246739e-6674-418c-a55b-809c095a6f2a.pdf
+2025-11-26 18:09:19 - pdf_renamer - INFO - 处理文件: 28121530-287f-4075-a575-43c170b306f8.pdf
+2025-11-26 18:09:19 - pdf_renamer - INFO - 处理文件: 02f13f3c-312d-4cbc-a87e-ff9d92308b66.pdf
+2025-11-26 18:09:19 - pdf_renamer - WARNING - 文件过大（107.4MB），跳过处理: 28121530-287f-4075-a575-43c170b306f8.pdf
+2025-11-26 18:09:19 - pdf_renamer - INFO - 处理文件: 25feff92-2066-4629-a963-353c5ce72a26.pdf
+2025-11-26 18:09:19 - pdf_renamer - INFO - 处理文件: b7b9551f-d685-485b-9971-eea93e86d67e.pdf
+2025-11-26 18:09:19 - pdf_renamer - INFO - 处理文件: 2738b17f-f574-4d0b-b151-9014692ee2e2.pdf
+2025-11-26 18:09:19 - pdf_renamer - WARNING - 文件过大（106.9MB），跳过处理: 02f13f3c-312d-4cbc-a87e-ff9d92308b66.pdf
+2025-11-26 18:09:19 - pdf_renamer - WARNING - 文件过大（106.8MB），跳过处理: 25feff92-2066-4629-a963-353c5ce72a26.pdf
+2025-11-26 18:09:19 - pdf_renamer - WARNING - 文件过大（103.4MB），跳过处理: b7b9551f-d685-485b-9971-eea93e86d67e.pdf
+2025-11-26 18:09:19 - pdf_renamer - WARNING - 文件过大（103.4MB），跳过处理: 2738b17f-f574-4d0b-b151-9014692ee2e2.pdf
+2025-11-26 18:09:19 - pdf_renamer - INFO - 处理完成: 0/19 成功, 用时 0.2秒
+2025-11-26 18:15:29 - pdf_renamer - INFO - PDF重命名工具 v2.0 启动
+2025-11-26 18:15:44 - pdf_renamer - INFO - 处理文件: de138700-04fb-467e-9363-06bf8261c274.pdf
+2025-11-26 18:15:44 - pdf_renamer - INFO - 处理文件: 0e12d07c-a61a-4775-bb7b-9ab5a456e415.pdf
+2025-11-26 18:15:44 - pdf_renamer - INFO - 处理文件: 2007eced-9cc6-44fa-93bd-dcb16e03685e.pdf
+2025-11-26 18:15:44 - pdf_renamer - INFO - 处理文件: d86937b2-b084-418b-84aa-8ba451029044.pdf
+2025-11-26 18:15:49 - pdf_renamer - WARNING - 混合策略中 metadata 超时
+2025-11-26 18:15:49 - pdf_renamer - WARNING - 混合策略中 metadata 超时
+2025-11-26 18:15:49 - pdf_renamer - WARNING - 混合策略中 metadata 超时
+2025-11-26 18:15:49 - pdf_renamer - WARNING - 混合策略中 metadata 超时
+2025-11-26 18:15:54 - pdf_renamer - WARNING - 混合策略中 font_size 超时
+2025-11-26 18:15:54 - pdf_renamer - WARNING - 混合策略中 font_size 超时
+2025-11-26 18:15:54 - pdf_renamer - WARNING - 混合策略中 font_size 超时
+2025-11-26 18:15:54 - pdf_renamer - WARNING - 混合策略中 font_size 超时
+2025-11-26 18:15:59 - pdf_renamer - WARNING - 混合策略中 position 超时
+2025-11-26 18:15:59 - pdf_renamer - WARNING - 混合策略中 position 超时
+2025-11-26 18:15:59 - pdf_renamer - WARNING - 混合策略中 position 超时
+2025-11-26 18:15:59 - pdf_renamer - WARNING - 混合策略中 position 超时
+2025-11-26 18:16:04 - pdf_renamer - WARNING - 混合策略中 structure 超时
+2025-11-26 18:16:04 - pdf_renamer - WARNING - 混合策略中 structure 超时
+2025-11-26 18:16:04 - pdf_renamer - WARNING - 混合策略中 structure 超时
+2025-11-26 18:16:04 - pdf_renamer - WARNING - 混合策略中 structure 超时
+2025-11-26 18:16:34 - pdf_renamer - WARNING - 策略 position 超时（30秒）
+2025-11-26 18:16:34 - pdf_renamer - WARNING - 策略 position 超时（30秒）
+2025-11-26 18:16:34 - pdf_renamer - WARNING - 策略 position 超时（30秒）
+2025-11-26 18:16:34 - pdf_renamer - WARNING - 策略 position 超时（30秒）
+2025-11-26 18:16:44 - pdf_renamer - WARNING - 文件处理超时（60秒），跳过: 2007eced-9cc6-44fa-93bd-dcb16e03685e.pdf
+2025-11-26 18:16:44 - pdf_renamer - WARNING - 文件处理超时（60秒），跳过: de138700-04fb-467e-9363-06bf8261c274.pdf
+2025-11-26 18:16:44 - pdf_renamer - WARNING - 文件处理超时（60秒），跳过: d86937b2-b084-418b-84aa-8ba451029044.pdf
+2025-11-26 18:16:44 - pdf_renamer - WARNING - 文件处理超时（60秒），跳过: 0e12d07c-a61a-4775-bb7b-9ab5a456e415.pdf
+2025-11-26 18:16:44 - pdf_renamer - INFO - 处理文件: 2044fccc-8ab6-4e95-9d28-0dc448db696f.pdf
+2025-11-26 18:16:44 - pdf_renamer - INFO - 处理文件: 76fc8ae9-919e-4e75-afdc-e0c5d3328f90.pdf
+2025-11-26 18:16:44 - pdf_renamer - INFO - 处理文件: 57deed34-c3d4-4bea-bd40-172f082cd037.pdf
+2025-11-26 18:16:44 - pdf_renamer - INFO - 处理文件: 79c22ecc-416d-4b57-abbc-8b3d40a29e50.pdf
+2025-11-26 18:16:49 - pdf_renamer - WARNING - 混合策略中 metadata 超时
+2025-11-26 18:16:49 - pdf_renamer - WARNING - 混合策略中 metadata 超时
+2025-11-26 18:16:49 - pdf_renamer - WARNING - 混合策略中 metadata 超时
+2025-11-26 18:16:49 - pdf_renamer - WARNING - 混合策略中 metadata 超时
+2025-11-26 18:16:54 - pdf_renamer - WARNING - 混合策略中 font_size 超时
+2025-11-26 18:16:54 - pdf_renamer - WARNING - 混合策略中 font_size 超时
+2025-11-26 18:16:54 - pdf_renamer - WARNING - 混合策略中 font_size 超时
+2025-11-26 18:16:54 - pdf_renamer - WARNING - 混合策略中 font_size 超时
+2025-11-26 18:16:59 - pdf_renamer - WARNING - 混合策略中 position 超时
+2025-11-26 18:16:59 - pdf_renamer - WARNING - 混合策略中 position 超时
+2025-11-26 18:16:59 - pdf_renamer - WARNING - 混合策略中 position 超时
+2025-11-26 18:17:00 - pdf_renamer - WARNING - 混合策略中 position 超时
+2025-11-26 18:17:04 - pdf_renamer - WARNING - 策略 metadata 超时（30秒）
+2025-11-26 18:17:04 - pdf_renamer - WARNING - 策略 metadata 超时（30秒）
+2025-11-26 18:17:04 - pdf_renamer - WARNING - 策略 metadata 超时（30秒）
+2025-11-26 18:17:04 - pdf_renamer - WARNING - 策略 metadata 超时（30秒）
+2025-11-26 18:17:04 - pdf_renamer - WARNING - 混合策略中 structure 超时
+2025-11-26 18:17:05 - pdf_renamer - WARNING - 混合策略中 structure 超时
+2025-11-26 18:17:05 - pdf_renamer - WARNING - 混合策略中 structure 超时
+2025-11-26 18:17:05 - pdf_renamer - WARNING - 混合策略中 structure 超时
+2025-11-26 18:17:35 - pdf_renamer - WARNING - 策略 position 超时（30秒）
+2025-11-26 18:17:35 - pdf_renamer - WARNING - 策略 position 超时（30秒）
+2025-11-26 18:17:35 - pdf_renamer - WARNING - 策略 position 超时（30秒）
+2025-11-26 18:17:35 - pdf_renamer - WARNING - 策略 position 超时（30秒）
+2025-11-26 18:17:44 - pdf_renamer - WARNING - 文件处理超时（60秒），跳过: 76fc8ae9-919e-4e75-afdc-e0c5d3328f90.pdf
+2025-11-26 18:17:44 - pdf_renamer - INFO - 处理文件: 8e714e17-d1c8-412e-9ed9-dc9daddcffaa.pdf
+2025-11-26 18:17:44 - pdf_renamer - WARNING - 文件处理超时（60秒），跳过: 57deed34-c3d4-4bea-bd40-172f082cd037.pdf
+2025-11-26 18:17:44 - pdf_renamer - WARNING - 文件处理超时（60秒），跳过: 2044fccc-8ab6-4e95-9d28-0dc448db696f.pdf
+2025-11-26 18:17:44 - pdf_renamer - WARNING - 文件处理超时（60秒），跳过: 79c22ecc-416d-4b57-abbc-8b3d40a29e50.pdf
+2025-11-26 18:17:44 - pdf_renamer - INFO - 处理文件: 44167fb6-5db1-4098-a6e7-8c9db1591a01.pdf
+2025-11-26 18:17:44 - pdf_renamer - INFO - 处理文件: bac13d99-1f2e-4532-8c95-da16f4e2f1fc.pdf
+2025-11-26 18:17:44 - pdf_renamer - INFO - 处理文件: f267d111-289e-44b3-9ef6-15f17d41ce70.pdf
+2025-11-26 18:17:49 - pdf_renamer - WARNING - 混合策略中 metadata 超时
+2025-11-26 18:17:49 - pdf_renamer - WARNING - 混合策略中 metadata 超时
+2025-11-26 18:17:50 - pdf_renamer - WARNING - 混合策略中 metadata 超时
+2025-11-26 18:17:50 - pdf_renamer - WARNING - 混合策略中 metadata 超时
+2025-11-26 18:17:55 - pdf_renamer - WARNING - 混合策略中 font_size 超时
+2025-11-26 18:17:55 - pdf_renamer - WARNING - 混合策略中 font_size 超时
+2025-11-26 18:17:55 - pdf_renamer - WARNING - 混合策略中 font_size 超时
+2025-11-26 18:17:55 - pdf_renamer - WARNING - 混合策略中 font_size 超时
+2025-11-26 18:18:00 - pdf_renamer - WARNING - 混合策略中 position 超时
+2025-11-26 18:18:00 - pdf_renamer - WARNING - 混合策略中 position 超时
+2025-11-26 18:18:00 - pdf_renamer - WARNING - 混合策略中 position 超时
+2025-11-26 18:18:00 - pdf_renamer - WARNING - 混合策略中 position 超时
+2025-11-26 18:18:06 - pdf_renamer - WARNING - 混合策略中 structure 超时
+2025-11-26 18:18:06 - pdf_renamer - WARNING - 策略 metadata 超时（30秒）
+2025-11-26 18:18:06 - pdf_renamer - WARNING - 策略 metadata 超时（30秒）
+2025-11-26 18:18:06 - pdf_renamer - WARNING - 混合策略中 structure 超时
+2025-11-26 18:18:06 - pdf_renamer - WARNING - 策略 metadata 超时（30秒）
+2025-11-26 18:18:06 - pdf_renamer - WARNING - 策略 metadata 超时（30秒）
+2025-11-26 18:18:06 - pdf_renamer - WARNING - 混合策略中 structure 超时
+2025-11-26 18:18:06 - pdf_renamer - WARNING - 混合策略中 structure 超时
+2025-11-26 18:18:36 - pdf_renamer - WARNING - 策略 position 超时（30秒）
+2025-11-26 18:18:37 - pdf_renamer - WARNING - 策略 position 超时（30秒）
+2025-11-26 18:18:37 - pdf_renamer - WARNING - 策略 position 超时（30秒）
+2025-11-26 18:18:37 - pdf_renamer - WARNING - 策略 position 超时（30秒）
+2025-11-26 18:18:44 - pdf_renamer - WARNING - 文件处理超时（60秒），跳过: 8e714e17-d1c8-412e-9ed9-dc9daddcffaa.pdf
+2025-11-26 18:18:44 - pdf_renamer - INFO - 处理文件: 1ef79712-4b1e-4de9-a2be-ec4678d100b8.pdf
+2025-11-26 18:18:44 - pdf_renamer - WARNING - 文件处理超时（60秒），跳过: 44167fb6-5db1-4098-a6e7-8c9db1591a01.pdf
+2025-11-26 18:18:44 - pdf_renamer - INFO - 处理文件: f246739e-6674-418c-a55b-809c095a6f2a.pdf
+2025-11-26 18:18:44 - pdf_renamer - WARNING - 文件处理超时（60秒），跳过: bac13d99-1f2e-4532-8c95-da16f4e2f1fc.pdf
+2025-11-26 18:18:45 - pdf_renamer - WARNING - 文件处理超时（60秒），跳过: f267d111-289e-44b3-9ef6-15f17d41ce70.pdf
+2025-11-26 18:18:45 - pdf_renamer - INFO - 处理文件: 28121530-287f-4075-a575-43c170b306f8.pdf
+2025-11-26 18:18:45 - pdf_renamer - INFO - 处理文件: 02f13f3c-312d-4cbc-a87e-ff9d92308b66.pdf
+2025-11-26 18:18:49 - pdf_renamer - WARNING - 混合策略中 metadata 超时
+2025-11-26 18:18:50 - pdf_renamer - WARNING - 混合策略中 metadata 超时
+2025-11-26 18:18:50 - pdf_renamer - WARNING - 混合策略中 metadata 超时
+2025-11-26 18:18:50 - pdf_renamer - WARNING - 混合策略中 metadata 超时
+2025-11-26 18:18:55 - pdf_renamer - WARNING - 混合策略中 font_size 超时
+2025-11-26 18:18:55 - pdf_renamer - WARNING - 混合策略中 font_size 超时
+2025-11-26 18:18:56 - pdf_renamer - WARNING - 混合策略中 font_size 超时
+2025-11-26 18:18:56 - pdf_renamer - WARNING - 混合策略中 font_size 超时
+2025-11-26 18:19:02 - pdf_renamer - WARNING - 混合策略中 position 超时
+2025-11-26 18:19:02 - pdf_renamer - WARNING - 混合策略中 position 超时
+2025-11-26 18:19:04 - pdf_renamer - WARNING - 混合策略中 position 超时
+2025-11-26 18:19:04 - pdf_renamer - WARNING - 混合策略中 position 超时
+2025-11-26 18:19:04 - pdf_renamer - INFO - 用户请求停止处理
+2025-11-26 18:19:07 - pdf_renamer - WARNING - 策略 metadata 超时（30秒）
+2025-11-26 18:19:07 - pdf_renamer - INFO - 处理已暂停
+2025-11-26 18:19:07 - pdf_renamer - WARNING - 策略 metadata 超时（30秒）
+2025-11-26 18:19:07 - pdf_renamer - WARNING - 策略 metadata 超时（30秒）
+2025-11-26 18:19:08 - pdf_renamer - WARNING - 策略 metadata 超时（30秒）
+2025-11-26 18:19:08 - pdf_renamer - WARNING - 混合策略中 structure 超时
+2025-11-26 18:19:08 - pdf_renamer - WARNING - 混合策略中 structure 超时
+2025-11-26 18:19:08 - pdf_renamer - INFO - 用户请求停止处理
+2025-11-26 18:19:09 - pdf_renamer - WARNING - 混合策略中 structure 超时
+2025-11-26 18:19:09 - pdf_renamer - WARNING - 混合策略中 structure 超时
+2025-11-26 18:19:24 - pdf_renamer - INFO - PDF重命名工具 v2.0 启动
+2025-11-26 18:19:38 - pdf_renamer - WARNING - 策略 position 超时（30秒）
+2025-11-26 18:19:38 - pdf_renamer - WARNING - 策略 position 超时（30秒）
+2025-11-26 18:19:39 - pdf_renamer - WARNING - 策略 position 超时（30秒）
+2025-11-26 18:19:39 - pdf_renamer - WARNING - 策略 position 超时（30秒）
+2025-11-26 18:19:40 - pdf_renamer - INFO - 处理文件: c5dc5926-f671-4166-9ecd-e695d7f5730e.pdf
+2025-11-26 18:19:40 - pdf_renamer - INFO - 处理文件: 4b1e3054-15c0-4839-b332-18f17a957302.pdf
+2025-11-26 18:19:40 - pdf_renamer - INFO - 处理文件: b291c0cb-3cdf-491b-91dc-d241921b9d55.pdf
+2025-11-26 18:19:40 - pdf_renamer - INFO - 处理文件: 79c01f7c-f407-415b-82f3-9747389bd8ae.pdf
+2025-11-26 18:19:41 - pdf_renamer - INFO - 策略 mixed 成功提取: 2025年3月2日CES7145,6三亚-新加坡-三亚飞...
+2025-11-26 18:19:41 - pdf_renamer - INFO - 策略 mixed 成功提取: FAVT 605/0204-25（CES7308）...
+2025-11-26 18:19:42 - pdf_renamer - INFO - 策略 position 成功提取: 2025年3月2日CES7145,6三亚-新加坡-三亚飞...
+2025-11-26 18:19:42 - pdf_renamer - INFO - 最终选择策略: mixed, 文本: 2025年3月2日CES7145,6三亚-新加坡-三亚飞
+2025-11-26 18:19:42 - pdf_renamer - INFO - 重命名成功: b291c0cb-3cdf-491b-91dc-d241921b9d55.pdf -> 2025年3月2日CES7145,6三亚-新加坡-三亚飞.pdf
+2025-11-26 18:19:42 - pdf_renamer - INFO - 处理文件: 2cf0ae23-d6ea-48ce-935a-966b58ec755f.pdf
+2025-11-26 18:19:42 - pdf_renamer - INFO - 策略 position 成功提取: 2025年4月15日-5月1日CES7303/4/7/8浦东...
+2025-11-26 18:19:42 - pdf_renamer - INFO - 最终选择策略: mixed, 文本: FAVT 605/0204-25（CES7308）
+2025-11-26 18:19:42 - pdf_renamer - INFO - 重命名成功: 79c01f7c-f407-415b-82f3-9747389bd8ae.pdf -> FAVT 6050204-25（CES7308）.pdf
+2025-11-26 18:19:42 - pdf_renamer - INFO - 处理文件: 5f7ba3c3-b43e-46b4-ae09-aad1f00df826.pdf
+2025-11-26 18:19:43 - pdf_renamer - INFO - 策略 mixed 成功提取: CODE:MUDAP...
+2025-11-26 18:19:43 - pdf_renamer - INFO - 策略 mixed 成功提取: å–³äº”è⁄ª2020å¹´èµ·å–¨éš¢æ”¨è¿...
+2025-11-26 18:19:43 - pdf_renamer - INFO - 策略 mixed 成功提取: FEB10，2020...
+2025-11-26 18:19:43 - pdf_renamer - INFO - 策略 metadata 成功提取: å–³äº”è⁄ª2020å¹´èµ·å–¨éš¢æ”¨è¿...
+2025-11-26 18:19:43 - pdf_renamer - INFO - 最终选择策略: mixed, 文本: å–³äº”è⁄ª2020å¹´èµ·å–¨éš¢æ”¨è¿łæ°‚çﬂ¨è‹ªç©ºäººå‚Ÿâ•œçﬂµå ’ä½ﬁæ£•å’‹æ€¼è¯†â•šçı—é•ıç ¥-çﬂµ48å‘·.pdf
+2025-11-26 18:19:43 - pdf_renamer - ERROR - 处理文件失败 2cf0ae23-d6ea-48ce-935a-966b58ec755f.pdf: rename: embedded null character in dst
+2025-11-26 18:19:43 - pdf_renamer - INFO - 处理文件: 7bd38912-b666-4528-9ad3-bc5d2e13c818.pdf
+2025-11-26 18:19:44 - pdf_renamer - INFO - 策略 position 成功提取: INSTRUCTIONSONDEWPOINTANDFROST...
+2025-11-26 18:19:44 - pdf_renamer - INFO - 最终选择策略: mixed, 文本: CODE:MUDAP
+2025-11-26 18:19:44 - pdf_renamer - INFO - 重命名成功: 4b1e3054-15c0-4839-b332-18f17a957302.pdf -> CODEMUDAP.pdf
+2025-11-26 18:19:44 - pdf_renamer - INFO - 处理文件: d51b8305-d65f-4364-92d7-8d845121f1b0.pdf
+2025-11-26 18:19:44 - pdf_renamer - INFO - 策略 position 成功提取: OperationControlCenter...
+2025-11-26 18:19:45 - pdf_renamer - WARNING - 文件处理超时（60秒），跳过: 1ef79712-4b1e-4de9-a2be-ec4678d100b8.pdf
+2025-11-26 18:19:45 - pdf_renamer - WARNING - 文件处理超时（60秒），跳过: f246739e-6674-418c-a55b-809c095a6f2a.pdf
+2025-11-26 18:19:45 - pdf_renamer - WARNING - 文件处理超时（60秒），跳过: 28121530-287f-4075-a575-43c170b306f8.pdf
+2025-11-26 18:19:45 - pdf_renamer - WARNING - 文件处理超时（60秒），跳过: 02f13f3c-312d-4cbc-a87e-ff9d92308b66.pdf
+2025-11-26 18:19:45 - pdf_renamer - INFO - 策略 metadata 成功提取: FEB10，2020...
+2025-11-26 18:19:45 - pdf_renamer - INFO - 最终选择策略: mixed, 文本: FEB10，2020
+2025-11-26 18:19:45 - pdf_renamer - INFO - 重命名成功: c5dc5926-f671-4166-9ecd-e695d7f5730e.pdf -> FEB10，2020.pdf
+2025-11-26 18:19:45 - pdf_renamer - INFO - 处理文件: e6d85b75-ae14-413e-91f7-53865bad0251.pdf
+2025-11-26 18:19:46 - pdf_renamer - INFO - 策略 mixed 成功提取: 、、11.4GUIDELINEFORIⅡⅣFLUIDMIXT...
+2025-11-26 18:19:47 - pdf_renamer - INFO - 策略 mixed 成功提取: 驾驶舱准备 起动前 起动后...
+2025-11-26 18:19:48 - pdf_renamer - INFO - 策略 position 成功提取: 、、11.4GUIDELINEFORIⅡⅣFLUIDMIXT...
+2025-11-26 18:19:48 - pdf_renamer - INFO - 最终选择策略: mixed, 文本: 、、11.4GUIDELINEFORIⅡⅣFLUIDMIXTURE
+2025-11-26 18:19:48 - pdf_renamer - INFO - 重命名成功: 5f7ba3c3-b43e-46b4-ae09-aad1f00df826.pdf -> 、、11.4GUIDELINEFORIⅡⅣFLUIDMIXTURE.pdf
+2025-11-26 18:19:48 - pdf_renamer - INFO - 处理文件: 4c36134e-2ea8-4065-aaab-ecd1c160d6a4.pdf
+2025-11-26 18:19:49 - pdf_renamer - INFO - 策略 position 成功提取: 导航ADIRS..........................
+2025-11-26 18:19:49 - pdf_renamer - INFO - 最终选择策略: mixed, 文本: 驾驶舱准备 起动前 起动后
+2025-11-26 18:19:49 - pdf_renamer - INFO - 策略 mixed 成功提取: FEB10，2020...
+2025-11-26 18:19:50 - pdf_renamer - INFO - 重命名成功: 7bd38912-b666-4528-9ad3-bc5d2e13c818.pdf -> 驾驶舱准备 起动前 起动后.pdf
+2025-11-26 18:19:50 - pdf_renamer - INFO - 处理文件: 42a47728-b199-455f-a763-31d7eb603cf6.pdf
+2025-11-26 18:19:50 - pdf_renamer - INFO - 策略 mixed 成功提取: 驾驶舱准备 起动前 起动后...
+2025-11-26 18:19:51 - pdf_renamer - INFO - 策略 position 成功提取: OperationControlCenter...
+2025-11-26 18:19:51 - pdf_renamer - INFO - 策略 metadata 成功提取: FEB10，2020...
+2025-11-26 18:19:51 - pdf_renamer - INFO - 最终选择策略: mixed, 文本: FEB10，2020
+2025-11-26 18:19:51 - pdf_renamer - INFO - 重命名成功: d51b8305-d65f-4364-92d7-8d845121f1b0.pdf -> FEB10，2020_1.pdf
+2025-11-26 18:19:51 - pdf_renamer - INFO - 策略 mixed 成功提取: PLEASE ENSURE PERMIT NUMBER IS...
+2025-11-26 18:19:51 - pdf_renamer - INFO - 策略 position 成功提取: 导航ADIRS..........................
+2025-11-26 18:19:51 - pdf_renamer - INFO - 策略 mixed 成功提取: SO-00...
+2025-11-26 18:19:51 - pdf_renamer - INFO - 最终选择策略: mixed, 文本: 驾驶舱准备 起动前 起动后
+2025-11-26 18:19:51 - pdf_renamer - INFO - 重命名成功: e6d85b75-ae14-413e-91f7-53865bad0251.pdf -> 驾驶舱准备 起动前 起动后_1.pdf
+2025-11-26 18:19:51 - pdf_renamer - INFO - 策略 position 成功提取: 2025年1-2月CES7615/6昆明—金边—昆明飞越...
+2025-11-26 18:19:51 - pdf_renamer - INFO - 最终选择策略: mixed, 文本: PLEASE ENSURE PERMIT NUMBER IS INCLUDED IN ITEM 18 OF THE
+2025-11-26 18:19:51 - pdf_renamer - INFO - 重命名成功: 42a47728-b199-455f-a763-31d7eb603cf6.pdf -> PLEASE ENSURE PERMIT NUMBER IS INCLUDED IN ITEM 18 OF THE.pdf
+2025-11-26 18:19:52 - pdf_renamer - INFO - 策略 position 成功提取: PBN程序............................
+2025-11-26 18:19:52 - pdf_renamer - INFO - 最终选择策略: mixed, 文本: SO-00
+2025-11-26 18:19:52 - pdf_renamer - INFO - 重命名成功: 4c36134e-2ea8-4065-aaab-ecd1c160d6a4.pdf -> SO-00.pdf
+2025-11-26 18:19:52 - pdf_renamer - INFO - 处理完成: 10/11 成功, 用时 11.9秒
+2025-11-26 18:24:03 - pdf_renamer - INFO - PDF重命名工具 v2.0 启动
+2025-11-26 18:24:22 - pdf_renamer - INFO - 处理文件: de138700-04fb-467e-9363-06bf8261c274.pdf
+2025-11-26 18:24:22 - pdf_renamer - INFO - 处理文件: 0e12d07c-a61a-4775-bb7b-9ab5a456e415.pdf
+2025-11-26 18:24:22 - pdf_renamer - INFO - 处理文件: 2007eced-9cc6-44fa-93bd-dcb16e03685e.pdf
+2025-11-26 18:24:22 - pdf_renamer - INFO - 处理文件: d86937b2-b084-418b-84aa-8ba451029044.pdf
+2025-11-26 18:24:27 - pdf_renamer - WARNING - 混合策略中 metadata 超时
+2025-11-26 18:24:27 - pdf_renamer - WARNING - 混合策略中 metadata 超时
+2025-11-26 18:24:27 - pdf_renamer - WARNING - 混合策略中 metadata 超时
+2025-11-26 18:24:27 - pdf_renamer - WARNING - 混合策略中 metadata 超时
+2025-11-26 18:24:32 - pdf_renamer - WARNING - 混合策略中 font_size 超时
+2025-11-26 18:24:32 - pdf_renamer - WARNING - 混合策略中 font_size 超时
+2025-11-26 18:24:32 - pdf_renamer - WARNING - 混合策略中 font_size 超时
+2025-11-26 18:24:32 - pdf_renamer - WARNING - 混合策略中 font_size 超时
+2025-11-26 18:24:37 - pdf_renamer - WARNING - 混合策略中 position 超时
+2025-11-26 18:24:37 - pdf_renamer - WARNING - 混合策略中 position 超时
+2025-11-26 18:24:37 - pdf_renamer - WARNING - 混合策略中 position 超时
+2025-11-26 18:24:37 - pdf_renamer - WARNING - 混合策略中 position 超时
+2025-11-26 18:24:42 - pdf_renamer - WARNING - 混合策略中 structure 超时
+2025-11-26 18:24:42 - pdf_renamer - WARNING - 混合策略中 structure 超时
+2025-11-26 18:24:42 - pdf_renamer - WARNING - 混合策略中 structure 超时
+2025-11-26 18:24:42 - pdf_renamer - WARNING - 混合策略中 structure 超时
+2025-11-26 18:25:00 - pdf_renamer - INFO - 用户请求停止处理
+2025-11-26 18:25:29 - pdf_renamer - INFO - 策略 position 成功提取: 正文前资料...
+2025-11-26 18:25:42 - pdf_renamer - WARNING - 策略 position 超时（60秒）
+2025-11-26 18:25:42 - pdf_renamer - WARNING - 策略 position 超时（60秒）
+2025-11-26 18:25:42 - pdf_renamer - WARNING - 策略 position 超时（60秒）
+2025-11-26 18:25:53 - pdf_renamer - INFO - PDF重命名工具 v2.0 启动
+2025-11-26 18:26:07 - pdf_renamer - INFO - 处理文件: de138700-04fb-467e-9363-06bf8261c274.pdf
+2025-11-26 18:26:07 - pdf_renamer - INFO - 处理文件: 0e12d07c-a61a-4775-bb7b-9ab5a456e415.pdf
+2025-11-26 18:26:07 - pdf_renamer - INFO - 处理文件: 2007eced-9cc6-44fa-93bd-dcb16e03685e.pdf
+2025-11-26 18:26:07 - pdf_renamer - INFO - 处理文件: d86937b2-b084-418b-84aa-8ba451029044.pdf
+2025-11-26 18:26:16 - pdf_renamer - INFO - 策略 fast_mode 成功提取: C919 飞机飞行手册...
+2025-11-26 18:26:16 - pdf_renamer - INFO - 最终选择策略: fast_mode, 文本: C919 飞机飞行手册
+2025-11-26 18:26:16 - pdf_renamer - INFO - 重命名成功: de138700-04fb-467e-9363-06bf8261c274.pdf -> C919 飞机飞行手册.pdf
+2025-11-26 18:26:16 - pdf_renamer - INFO - 处理文件: 2044fccc-8ab6-4e95-9d28-0dc448db696f.pdf
+2025-11-26 18:26:17 - pdf_renamer - WARNING - 策略 fast_mode 超时（10秒）
+2025-11-26 18:26:17 - pdf_renamer - WARNING - 策略 fast_mode 超时（10秒）
+2025-11-26 18:26:17 - pdf_renamer - WARNING - 策略 fast_mode 超时（10秒）
+2025-11-26 18:26:17 - pdf_renamer - INFO - 处理文件: 76fc8ae9-919e-4e75-afdc-e0c5d3328f90.pdf
+2025-11-26 18:26:17 - pdf_renamer - INFO - 处理文件: 57deed34-c3d4-4bea-bd40-172f082cd037.pdf
+2025-11-26 18:26:17 - pdf_renamer - INFO - 处理文件: 79c22ecc-416d-4b57-abbc-8b3d40a29e50.pdf
+2025-11-26 18:26:26 - pdf_renamer - WARNING - 策略 fast_mode 超时（10秒）
+2025-11-26 18:26:27 - pdf_renamer - WARNING - 策略 fast_mode 超时（10秒）
+2025-11-26 18:26:27 - pdf_renamer - WARNING - 策略 fast_mode 超时（10秒）
+2025-11-26 18:26:27 - pdf_renamer - WARNING - 策略 fast_mode 超时（10秒）
+2025-11-26 18:26:27 - pdf_renamer - INFO - 处理完成: 1/8 成功, 用时 20.2秒
+2025-11-26 18:37:44 - pdf_renamer - INFO - PDF重命名工具 v2.0 启动
+2025-11-26 18:50:49 - pdf_renamer - INFO - PDF重命名工具 v2.0 启动
+2025-11-26 18:51:19 - pdf_renamer - INFO - 处理文件: f947a91b-276b-4505-a6b8-6d424e33b60b.pdf
+2025-11-26 18:51:19 - pdf_renamer - INFO - 处理文件: 84d3ca6d-16ec-4851-acf7-8394d7051a5a.pdf
+2025-11-26 18:51:19 - pdf_renamer - INFO - 处理文件: eb998ef9-e05a-437f-916d-54cdbf1d354b.pdf
+2025-11-26 18:51:19 - pdf_renamer - INFO - 处理文件: c44cd582-e00b-4300-b0a1-855ed509fe79.pdf
+2025-11-26 18:51:23 - pdf_renamer - INFO - 策略 mixed 成功提取: 2025-26年冬春航季国际航班飞越批复汇总...
+2025-11-26 18:51:23 - pdf_renamer - INFO - 最终选择策略: mixed, 文本: 2025-26年冬春航季国际航班飞越批复汇总
+2025-11-26 18:51:23 - pdf_renamer - INFO - 重命名成功: eb998ef9-e05a-437f-916d-54cdbf1d354b.pdf -> 2025-26年冬春航季国际航班飞越批复汇总.pdf
+2025-11-26 18:51:23 - pdf_renamer - INFO - 处理文件: 491cd489-2f8a-4683-8dde-4e7d4ea99433.pdf
+2025-11-26 18:51:24 - pdf_renamer - WARNING - 混合策略中 metadata 超时
+2025-11-26 18:51:24 - pdf_renamer - WARNING - 混合策略中 metadata 超时
+2025-11-26 18:51:24 - pdf_renamer - INFO - 策略 mixed 成功提取: 2025年夏秋航季国际航班飞越批复汇总...
+2025-11-26 18:51:24 - pdf_renamer - INFO - 最终选择策略: mixed, 文本: 2025年夏秋航季国际航班飞越批复汇总
+2025-11-26 18:51:24 - pdf_renamer - INFO - 重命名成功: f947a91b-276b-4505-a6b8-6d424e33b60b.pdf -> 2025年夏秋航季国际航班飞越批复汇总.pdf
+2025-11-26 18:51:24 - pdf_renamer - INFO - 处理文件: 1d865e96-63e0-4731-bc34-f2fc81ad6587.pdf
+2025-11-26 18:51:28 - pdf_renamer - WARNING - 混合策略中 metadata 超时
+2025-11-26 18:51:29 - pdf_renamer - WARNING - 混合策略中 font_size 超时
+2025-11-26 18:51:29 - pdf_renamer - WARNING - 混合策略中 font_size 超时
+2025-11-26 18:51:29 - pdf_renamer - WARNING - 混合策略中 metadata 超时
+2025-11-26 18:51:33 - pdf_renamer - WARNING - 混合策略中 font_size 超时
+2025-11-26 18:51:34 - pdf_renamer - WARNING - 混合策略中 position 超时
+2025-11-26 18:51:34 - pdf_renamer - WARNING - 混合策略中 position 超时
+2025-11-26 18:51:34 - pdf_renamer - WARNING - 混合策略中 font_size 超时
+2025-11-26 18:51:38 - pdf_renamer - WARNING - 混合策略中 position 超时
+2025-11-26 18:51:39 - pdf_renamer - WARNING - 混合策略中 structure 超时
+2025-11-26 18:51:39 - pdf_renamer - WARNING - 混合策略中 structure 超时
+2025-11-26 18:51:39 - pdf_renamer - INFO - 处理文件: 863bcbf1-4d81-4221-b3ae-b564489c077c.pdf
+2025-11-26 18:51:39 - pdf_renamer - INFO - 处理文件: 2680ec19-81a8-412e-8572-e84fcf242df4.pdf
+2025-11-26 18:51:39 - pdf_renamer - WARNING - 混合策略中 position 超时
+2025-11-26 18:51:41 - pdf_renamer - INFO - 策略 mixed 成功提取: Revision Highlights...
+2025-11-26 18:51:41 - pdf_renamer - INFO - 最终选择策略: mixed, 文本: Revision Highlights
+2025-11-26 18:51:41 - pdf_renamer - INFO - 重命名成功: 2680ec19-81a8-412e-8572-e84fcf242df4.pdf -> Revision Highlights.pdf
+2025-11-26 18:51:41 - pdf_renamer - INFO - 处理文件: fda6e2fb-a39f-4ad6-81ed-fca6a962c558.pdf
+2025-11-26 18:51:43 - pdf_renamer - WARNING - 混合策略中 structure 超时
+2025-11-26 18:51:43 - pdf_renamer - INFO - 处理文件: f35de1b4-d4e1-4ab3-a266-17648fb8a0c6.pdf
+2025-11-26 18:51:44 - pdf_renamer - WARNING - 混合策略中 structure 超时
+2025-11-26 18:51:44 - pdf_renamer - INFO - 处理文件: 58bf8b5d-d123-4ae6-a02c-2c699b73851f.pdf
+2025-11-26 18:51:46 - pdf_renamer - WARNING - 混合策略中 metadata 超时
+2025-11-26 18:51:48 - pdf_renamer - WARNING - 混合策略中 metadata 超时
+2025-11-26 18:51:51 - pdf_renamer - WARNING - 混合策略中 font_size 超时
+2025-11-26 18:51:53 - pdf_renamer - WARNING - 混合策略中 font_size 超时
+2025-11-26 18:51:54 - pdf_renamer - WARNING - 混合策略中 font_size 超时
+2025-11-26 18:51:56 - pdf_renamer - WARNING - 混合策略中 position 超时
+2025-11-26 18:51:58 - pdf_renamer - INFO - 策略 mixed 成功提取: A320系列机型技术通告汇编 31 OCT 23...
+2025-11-26 18:51:58 - pdf_renamer - INFO - 最终选择策略: mixed, 文本: A320系列机型技术通告汇编 31 OCT 23
+2025-11-26 18:51:58 - pdf_renamer - WARNING - 混合策略中 position 超时
+2025-11-26 18:51:58 - pdf_renamer - INFO - 重命名成功: 863bcbf1-4d81-4221-b3ae-b564489c077c.pdf -> A320系列机型技术通告汇编 31 OCT 23.pdf
+2025-11-26 18:51:58 - pdf_renamer - INFO - 处理文件: 1e4f746f-5324-4046-bf69-05b0e7a03b97.pdf
+2025-11-26 18:52:01 - pdf_renamer - WARNING - 混合策略中 structure 超时
+2025-11-26 18:52:01 - pdf_renamer - INFO - 处理文件: 245f15a2-ec22-45fa-827b-f2a930338dfb.pdf
+2025-11-26 18:52:03 - pdf_renamer - WARNING - 混合策略中 structure 超时
+2025-11-26 18:52:03 - pdf_renamer - WARNING - 混合策略中 metadata 超时
+2025-11-26 18:52:03 - pdf_renamer - INFO - 处理文件: 59a2c98a-deee-4261-9b12-28d0657f7ad9.pdf
+2025-11-26 18:52:05 - pdf_renamer - WARNING - 混合策略中 structure 超时
+2025-11-26 18:52:05 - pdf_renamer - INFO - 策略 mixed 成功提取: CODE：MUDAPISSUING...
+2025-11-26 18:52:05 - pdf_renamer - INFO - 最终选择策略: mixed, 文本: CODE：MUDAPISSUING
+2025-11-26 18:52:05 - pdf_renamer - ERROR - 处理文件失败 58bf8b5d-d123-4ae6-a02c-2c699b73851f.pdf: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'D:\\飞行手册\\EFB\\2025年11月26日\\contents\\58bf8b5d-d123-4ae6-a02c-2c699b73851f.pdf' -> 'D:\\飞行手册\\EFB\\2025年11月26日\\contents\\CODE：MUDAPISSUING.pdf'
+2025-11-26 18:52:05 - pdf_renamer - INFO - 处理文件: 3a76a750-b3ba-4a2e-bd5b-1ad715c4c4de.pdf
+2025-11-26 18:52:06 - pdf_renamer - WARNING - 混合策略中 metadata 超时
+2025-11-26 18:52:08 - pdf_renamer - WARNING - 混合策略中 font_size 超时
+2025-11-26 18:52:08 - pdf_renamer - WARNING - 混合策略中 metadata 超时
+2025-11-26 18:52:10 - pdf_renamer - WARNING - 混合策略中 metadata 超时
+2025-11-26 18:52:11 - pdf_renamer - WARNING - 混合策略中 font_size 超时
+2025-11-26 18:52:13 - pdf_renamer - WARNING - 混合策略中 font_size 超时
+2025-11-26 18:52:13 - pdf_renamer - WARNING - 混合策略中 position 超时
+2025-11-26 18:52:15 - pdf_renamer - WARNING - 混合策略中 font_size 超时
+2025-11-26 18:52:18 - pdf_renamer - INFO - 策略 mixed 成功提取: Figure 4 to paragraph (i)— AFM...
+2025-11-26 18:52:18 - pdf_renamer - INFO - 最终选择策略: mixed, 文本: Figure 4 to paragraph (i)— AFM Revision for Non-Radio Altimeter Tolerant Airplanes
+2025-11-26 18:52:18 - pdf_renamer - INFO - 重命名成功: 1e4f746f-5324-4046-bf69-05b0e7a03b97.pdf -> Figure 4 to paragraph (i)— AFM Revision for Non-Radio Altimeter Tolerant Airplanes.pdf
+2025-11-26 18:52:18 - pdf_renamer - INFO - 处理文件: facd6976-efa4-4bca-b80b-51edcd9c4e07.pdf
+2025-11-26 18:52:19 - pdf_renamer - INFO - 策略 mixed 成功提取: Airplane Flight Manual...
+2025-11-26 18:52:19 - pdf_renamer - INFO - 最终选择策略: mixed, 文本: Airplane Flight Manual
+2025-11-26 18:52:19 - pdf_renamer - INFO - 重命名成功: 245f15a2-ec22-45fa-827b-f2a930338dfb.pdf -> Airplane Flight Manual.pdf
+2025-11-26 18:52:19 - pdf_renamer - INFO - 处理文件: 3a0cfd87-1b1f-4883-a075-3635c01ec15f.pdf
+2025-11-26 18:52:20 - pdf_renamer - INFO - 策略 mixed 成功提取: B737 技术通告汇编...
+2025-11-26 18:52:20 - pdf_renamer - INFO - 最终选择策略: mixed, 文本: B737 技术通告汇编
+2025-11-26 18:52:20 - pdf_renamer - INFO - 重命名成功: 59a2c98a-deee-4261-9b12-28d0657f7ad9.pdf -> B737 技术通告汇编.pdf
+2025-11-26 18:52:20 - pdf_renamer - INFO - 处理文件: 975c584b-10d0-4031-ab02-35585079ed4b.pdf
+2025-11-26 18:52:22 - pdf_renamer - INFO - 策略 mixed 成功提取: Figure 4 to paragraph (i)— AFM...
+2025-11-26 18:52:22 - pdf_renamer - INFO - 最终选择策略: mixed, 文本: Figure 4 to paragraph (i)— AFM Revision for Non-Radio Altimeter Tolerant Airplanes
+2025-11-26 18:52:22 - pdf_renamer - INFO - 重命名成功: 3a76a750-b3ba-4a2e-bd5b-1ad715c4c4de.pdf -> Figure 4 to paragraph (i)— AFM Revision for Non-Radio Altimeter Tolerant Airplanes_1.pdf
+2025-11-26 18:52:22 - pdf_renamer - INFO - 处理文件: a8fbc0ad-0439-4d8c-8e44-97a8b10a5fd8.pdf
+2025-11-26 18:52:23 - pdf_renamer - WARNING - 混合策略中 metadata 超时
+2025-11-26 18:52:25 - pdf_renamer - WARNING - 混合策略中 metadata 超时
+2025-11-26 18:52:28 - pdf_renamer - INFO - 策略 mixed 成功提取: C919 客舱机组操作手册 CCOM...
+2025-11-26 18:52:28 - pdf_renamer - INFO - 最终选择策略: mixed, 文本: C919 客舱机组操作手册 CCOM
+2025-11-26 18:52:29 - pdf_renamer - INFO - 重命名成功: 3a0cfd87-1b1f-4883-a075-3635c01ec15f.pdf -> C919 客舱机组操作手册 CCOM.pdf
+2025-11-26 18:52:29 - pdf_renamer - WARNING - 混合策略中 font_size 超时
+2025-11-26 18:52:29 - pdf_renamer - INFO - 处理文件: df771e55-4954-4591-99c0-9492ede33e53.pdf
+2025-11-26 18:52:30 - pdf_renamer - WARNING - 混合策略中 font_size 超时
+2025-11-26 18:52:32 - pdf_renamer - INFO - 策略 mixed 成功提取: A330 飞行操作技术信息通告汇编 17 OCT 23...
+2025-11-26 18:52:32 - pdf_renamer - INFO - 最终选择策略: mixed, 文本: A330 飞行操作技术信息通告汇编 17 OCT 23
+2025-11-26 18:52:32 - pdf_renamer - INFO - 重命名成功: df771e55-4954-4591-99c0-9492ede33e53.pdf -> A330 飞行操作技术信息通告汇编 17 OCT 23.pdf
+2025-11-26 18:52:32 - pdf_renamer - INFO - 处理文件: 5a4a0f8a-c6a4-432f-b4a6-d58d8620c0a1.pdf
+2025-11-26 18:52:35 - pdf_renamer - WARNING - 混合策略中 position 超时
+2025-11-26 18:52:37 - pdf_renamer - INFO - 策略 mixed 成功提取: 除冰和防冰大纲...
+2025-11-26 18:52:37 - pdf_renamer - INFO - 最终选择策略: mixed, 文本: 除冰和防冰大纲
+2025-11-26 18:52:37 - pdf_renamer - INFO - 重命名成功: a8fbc0ad-0439-4d8c-8e44-97a8b10a5fd8.pdf -> 除冰和防冰大纲.pdf
+2025-11-26 18:52:37 - pdf_renamer - INFO - 处理文件: 76a1e5b9-8993-407c-8513-067ab9794621.pdf
+2025-11-26 18:52:37 - pdf_renamer - INFO - 策略 mixed 成功提取: C919 标准操作程序手册...
+2025-11-26 18:52:37 - pdf_renamer - INFO - 最终选择策略: mixed, 文本: C919 标准操作程序手册
+2025-11-26 18:52:37 - pdf_renamer - INFO - 重命名成功: facd6976-efa4-4bca-b80b-51edcd9c4e07.pdf -> C919 标准操作程序手册.pdf
+2025-11-26 18:52:37 - pdf_renamer - INFO - 处理文件: af3f8e62-99c0-45d4-882a-26d5db817f27.pdf
+2025-11-26 18:52:38 - pdf_renamer - INFO - 策略 mixed 成功提取: CHINAEASTERNAIRLINESCO.,LTD...
+2025-11-26 18:52:38 - pdf_renamer - INFO - 最终选择策略: mixed, 文本: CHINAEASTERNAIRLINESCO.,LTD
+2025-11-26 18:52:38 - pdf_renamer - INFO - 重命名成功: 5a4a0f8a-c6a4-432f-b4a6-d58d8620c0a1.pdf -> CHINAEASTERNAIRLINESCO.,LTD.pdf
+2025-11-26 18:52:38 - pdf_renamer - INFO - 处理文件: 6cdcc61d-5ff4-4120-9154-6a888af046cb.pdf
+2025-11-26 18:52:40 - pdf_renamer - INFO - 策略 mixed 成功提取: Airplane Flight Manual...
+2025-11-26 18:52:40 - pdf_renamer - INFO - 最终选择策略: mixed, 文本: Airplane Flight Manual
+2025-11-26 18:52:40 - pdf_renamer - INFO - 重命名成功: af3f8e62-99c0-45d4-882a-26d5db817f27.pdf -> Airplane Flight Manual_1.pdf
+2025-11-26 18:52:40 - pdf_renamer - INFO - 处理文件: 26cc2621-77ea-4eea-ac19-4eaf5c2a713f.pdf
+2025-11-26 18:52:40 - pdf_renamer - WARNING - 混合策略中 structure 超时
+2025-11-26 18:52:40 - pdf_renamer - INFO - 处理文件: fcb075a5-9bf7-4fde-881f-d139725fe2d1.pdf
+2025-11-26 18:52:43 - pdf_renamer - INFO - 策略 mixed 成功提取: 客舱机组操作手册...
+2025-11-26 18:52:43 - pdf_renamer - INFO - 最终选择策略: mixed, 文本: 客舱机组操作手册
+2025-11-26 18:52:43 - pdf_renamer - INFO - 重命名成功: 76a1e5b9-8993-407c-8513-067ab9794621.pdf -> 客舱机组操作手册.pdf
+2025-11-26 18:52:43 - pdf_renamer - INFO - 处理文件: 95d4fcae-343d-4dc0-88ec-034bac91232a.pdf
+2025-11-26 18:52:44 - pdf_renamer - WARNING - 混合策略中 metadata 超时
+2025-11-26 18:52:45 - pdf_renamer - WARNING - 混合策略中 metadata 超时
+2025-11-26 18:52:48 - pdf_renamer - WARNING - 混合策略中 metadata 超时
+2025-11-26 18:52:49 - pdf_renamer - WARNING - 混合策略中 font_size 超时
+2025-11-26 18:52:50 - pdf_renamer - WARNING - 混合策略中 font_size 超时
+2025-11-26 18:52:53 - pdf_renamer - WARNING - 混合策略中 font_size 超时
+2025-11-26 18:52:54 - pdf_renamer - INFO - 策略 mixed 成功提取: 行 运 试 部 行 飞 海 上 供 仅...
+2025-11-26 18:52:54 - pdf_renamer - INFO - 最终选择策略: mixed, 文本: 行 运 试 部 行 飞 海 上 供 仅
+2025-11-26 18:52:54 - pdf_renamer - INFO - 重命名成功: fcb075a5-9bf7-4fde-881f-d139725fe2d1.pdf -> 行 运 试 部 行 飞 海 上 供 仅.pdf
+2025-11-26 18:52:54 - pdf_renamer - WARNING - 混合策略中 position 超时
+2025-11-26 18:52:55 - pdf_renamer - WARNING - 混合策略中 position 超时
+2025-11-26 18:52:58 - pdf_renamer - WARNING - 混合策略中 position 超时
+2025-11-26 18:52:59 - pdf_renamer - WARNING - 混合策略中 structure 超时
+2025-11-26 18:53:00 - pdf_renamer - INFO - 策略 mixed 成功提取: ISSUING NO： ZA-YG-0000...
+2025-11-26 18:53:00 - pdf_renamer - INFO - 最终选择策略: mixed, 文本: ISSUING NO： ZA-YG-0000
+2025-11-26 18:53:00 - pdf_renamer - INFO - 重命名成功: 26cc2621-77ea-4eea-ac19-4eaf5c2a713f.pdf -> ISSUING NO： ZA-YG-0000.pdf
+2025-11-26 18:53:03 - pdf_renamer - WARNING - 混合策略中 structure 超时
+2025-11-26 18:53:03 - pdf_renamer - INFO - 处理完成: 17/27 成功, 用时 104.5秒
