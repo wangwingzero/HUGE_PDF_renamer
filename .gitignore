@@ -63,3 +63,6 @@ backup/
 *.bak
 *.tmp
 *.temp
+
+# Documentation (internal flow)
+IFLOW.md
