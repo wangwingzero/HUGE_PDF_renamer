@@ -13,3 +13,7 @@ pyinstaller
 # v3 相关依赖
 pypdf
 customtkinter
+
+# 测试依赖
+pytest
+hypothesis

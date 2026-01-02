@@ -1,26 +1,65 @@
 # Python virtual environments
 .venv/
 venv/
+env/
+.env/
 
 # Python cache
 __pycache__/
 *.py[cod]
 *.pyo
+*.pyd
+.Python
 
 # Build and distribution
 build/
 dist/
 Output/
 *.egg-info/
+*.egg
+*.manifest
+*.spec.bak
+
+# PyInstaller
+*.spec.bak
 
 # Logs
 logs/
 *.log
 
-# IDE configs
+# Testing
+.hypothesis/
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# IDE and editor configs
 .vscode/
 .idea/
+*.swp
+*.swo
+*~
+*.sublime-*
+
+# Kiro AI assistant
+.kiro/
 
 # OS files
 Thumbs.db
 .DS_Store
+Desktop.ini
+ehthumbs.db
+
+# Config files (user-specific)
+config.json
+config_v3.json
+
+# Backup directories
+backup/
+
+# Misc
+*.bak
+*.tmp
+*.temp
